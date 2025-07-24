@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.quizapp.controller.MainController" spacing="10" alignment="CENTER">
+    <ListView fx:id="quizListView" prefHeight="200" prefWidth="300"/>
+    <Button text="Start Quiz" onAction="#startQuiz"/>
+</VBox>
